@@ -1,136 +1,146 @@
 *{
   margin:0;
   padding:0;
-  }   
+  font-family: sans-serif;
+  } 
 
   body{
-    background-image: url('https://github.com/hectlite/hectlite.tk/blob/main/1.png');
-    font-family: cursive;
-    background-color: grey;
-  }
+    background: grey;
+  }  
 
-
-
-.navbar {
-  overflow: visible;
-  background-color: black;
-  font-family: cursive;
-  float: right;
-  justify-content: center;
-
-  
-  
-}
-
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: blink;
-
-}
-
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0; 
-}
-
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.sidenav {
+.container{
+  width: 100%;
   height: 100%;
-  width: 200px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-.sidenav a, .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width:100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
+  background: grey;
+
 }
 
+  .menu ul{
+  display: inline-flex;
+  margin: 50px;
 
-.sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
   }
-.main {
-  margin-left: 200px; 
-  font-size: 20px; 
-  padding: 0px 10px;
-}
 
-      .active {
-  background-color: green;
-  color: white;
-}
+  .menu ul li{
+  list-style: none;
+  margin: 0 20px;
+  color: #b2b1b1;
+  cursor: pointer;
+  }  
 
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
-}
+  .menu ul li a{
+  list-style: none;
+  margin: 0 20px;
+  color: #b2b1b1;
+  cursor: pointer;
+  }  
 
-  .fa-caret-down {
-  float: right;
-  padding-right: 8px;
-}
+.menu ul li a:hover{
+  background-color: #ddd;
+  color: black;
+  }  
+  .logo img{
+    width: 30px;
+    margin-top:-7px ;
+    margin-right: 48px;
+
+  }
+
+  .active{
+    color: #19dafa !important;
+  }
+
+  .signup-btn{
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+  }
+
+   .signup-btn span{
+    display: block;
+    padding: 10px 24px;
+   }
+
+    .banner{
+      width: 80%;
+      height: 70%;
+      top: 25%;
+      left: 130px;
+      position: absolute;
+      color: #fff;
+
+    }
+    .app-text{
+      width: 50%;
+      float: left;
+
+    }
+
+    .app-text h1{
+      font -size: 43px;
+      width: 640px;
+      position: relative;
+      margin-left: 40px;
+
+      
+    }
+
+    .app-text p{
+      width: 650px;
+      font-size: 15px;
+      margin: 30px 0px 30px 40px;
+      line-height: 25px;
+      color: black;   
+    }
+
+    .app-picture{
+      width: 50%;
+      float: right;
+
+    }
+
+    .app-picture img{
+      width:100%;
+    margin-top: -70px;
+    padding-left: 400px;
+
+
+    }
+
+    .play-btn{
+      margin-left: 40px;
+      display: inline-flex;
+
+    }
+    .play-btn-inner{
+      height: 50px;
+      width: 50px;
+      border: 2px solid transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(#42455a,#42455a),radial-gradient(circle at top left,#fd00da,#19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    text-align: center;
+  }
+
+  .play-btn-inner .fa{
+    padding: 18px 0;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+   small{
+    margin: auto 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #19dafa;
+    letter-spacing: 3px;
+
+   }

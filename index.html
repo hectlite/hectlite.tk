@@ -2,202 +2,55 @@
 <html>
 <head>
 	<meta name="hectlite">
-	<meta keyword="hectlite">
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<style>
-		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
-		*{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-  
-
-
-  }
-
-  body{
-  	min-height: 100vh;
-    background: #150019;
-  }   
-  .navigation{
-  	position: fixed;
-  	width: 60px;
-  	height: 100%;
-  	background: #3e0748;
-  	transition: 0.5s;
-  	overflow: hidden;
-
-  }
-  	.navigation:hover,
-  	.navigation.active
-  	{
-  		width: 300px;
-  	}
-
-  		.navigation ul{
-  			position: absolute;
-  			top: 0;
-  			left: 0;
-  			width: 100%;
-  		}
-
-  		.navigation ul li{
-
-  			position: relative;
-  			width: 100%;
-  			list-style: none;
-
-  		}
-  		.navigation ul li:hover{
-  			background-color: #ea1d63;
-  		}
-  			.navigation ul li a{
-  				position: relative;
-  				display: block;
-  				width: 100%;
-  				display:  flex;
-  				color: #fff;
-
-
-  			}
-
-  			.navigation ul li a .icon{
-  				position: relative;
-  				display: block;
-  				min-width: 60px;
-  				height: 60px;
-  				line-height: 60px;
-  				text-align: center;
-  			}
-
-  			.navigation ul li a .icon .fa{
-  				font-size: 24px;
-  			}
-  			.navigation ul li a .title{
-  				position: relative;
-  				display: block;
-  				padding: 0 10px;
-  				height: 60px;
-  				line-height: 60px;
-  				text-align: start;
-  				white-space: nowrap;
-  			}
-
-  			
-  			@media(max-width: 767px)
-  			{
-
-  				.navigation{
-  					left: -60px;
-
-  				}
-  				.navigation.active{
-  					left: 0px;
-  					width: 100%;
-  					
-  				}
-  			}
-
-	</style>
-   <link rel="stylesheet" type="text/css" href="index.css">
+  <meta keyword="hectlite">
+  <meta charset="utf-8">
+  <link rel="icon"type="image/jpg"href="https://lh3.googleusercontent.com/ogw/ADGmqu8-PUdeYzNENuILvYVAbuPxA4fiOlnquX0B0CT9=s32-c-mo">
+  <title>hectlite</title>
+   <link rel="stylesheet" type="text/css" href="index2.css">
+   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<div class="navigation">
+<div class="container">
+	<div class="menu">
+	<ul>
+	<li class="logo"><img src="https://lh3.googleusercontent.com/ogw/ADGmqu8-PUdeYzNENuILvYVAbuPxA4fiOlnquX0B0CT9=s32-c-mo"></li>	
+	<li class="active"><a href="#">Home</a></li>
+	<li><a href="#">hectonic</li>
+	<li><a href="#">hectux</li>
+	<li><a href="mortlineimpurities.ga">mortline</li>
+	<li><a href="#"> Our Status</li>
+	<li><a href="#">About</li>
+	<li><a href="login.html" class="signup-btn"><span>Accounts</span></a></li>
+	</ul>
+	</div>
+	<div class="banner">
+	<div class="app-text">
+	<h1>HECTLITE ORGANISATION
+	</h1>
+	<p>dealings with wesploits<br>haacking. computer tools
+	advice computer services<br>and also computer educational 
+<br> and basic & minor entertainment softwares e.g games&movie
+<br>thank you... <br> note I'm in Tanzania</p>	
+	<div class="play-btn">
+		<div class="play-btn-inner"><i class="fa fa-eye" aria-hidden="true"></i>
+		</div>
+		<small><b>learn more</b></small>
+	</div> 
+	<div class="app-picture">
+		<img src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/267/4248534267_7ccae593-45b5-4bc9-8589-72d71f692484.png?cb=1607261882">
+	</div>
+	</div>
+	visit us also
+	<div class="container">
 		<ul>
-		<li>
-			<a href="#">
-			<span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
-			<span class="title">Home</span>
-				
-			</a>
-		</li>
-
-		<li>
-			<a href="#">
-			<span class="icon"><i class="fa fa-user" aria-hidden="true"></i></span>
-			<span class="title">visit profile</span>
-				
-			</a>
-		</li>
-
-		<li>
-			<a href="#">
-			<span class="icon"><i class="fa fa-comment" aria-hidden="true"></i></span>
-			<span class="title">comment us</span>
-				
-			</a>
-		</li>
-
-		<li>
-			<a href="#">
-			<span class="icon"><i class="fa fa-question-circle" aria-hidden="true"></i></span>
-			<span class="title">Need help</span>
-				
-			</a>
-		</li>
-
-		<li>
-			<a href="#">
-			<span class="icon"><i class="fa fa-cog" aria-hidden="true"></i></span>
-			<span class="title">setting</span>
-				
-			</a>
-		</li>
-
-		<li>
-			<a href="#">
-			<span class="icon"><i class="fa fa-lock" aria-hidden="true"></i></span>
-			<span class="title">password</span>
-				
-			</a>
-		</li>
-		<li>
-			<a href="#">
-			<span class="icon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
-			<span class="title">sign out</span>
-				
-			</a>
-		</li>
-
-    <li>
-      <a href="#">
-      <span class="icon"><i class="fa fa-signal" aria-hidden="true"></i></span>
-      <span class="title">Our status</span>
-        
-      </a>
-    </li>
+			<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></li>
+				<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+					<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+</li>
 		</ul>
-  </div>
-		<div class="toggle" onclick="toggleMenu()"> </div>
-		<script type="text/javascript">
-			function toggleMenu(){
-				let navigation = document.querySelector('.navigation');
-				let toggle = document.querySelector('.toggle');
-				navigation.classlist.toggle('active');
-				toggle.classlist.toggle('active');
-			}
+</div>
 
-		</script>
-
-    <div class="sticky-topnav">
-  <a class="active" href="index.html">Home</a>
-  <a href="GAMES TURBINE.HTML">games</a>
-  <a href="mypackage.html">movies</a>
-  <a href="tools.html">apps</a>
-  <a href="REGISTER WING.html">register</a>
-  <a href="about.html">about</a>
-  <input type="text" placeholder="Search.." src="index.html">
-</div>  
 </body>
-
-
-   
-<a target="_blank" href="https://www.amazon.com/b?_encoding=UTF8&tag=hectlite1-20&linkCode=ur2&linkId=6b88d75496e2952653dfdee5261aa5f7&camp=1789&creative=9325&node=229653">Hect3</a><img src="//ir-na.amazon-adsystem.com/e/ir?t=hectlite1-20&l=ur2&o=1" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-
-<center><p>copyright&copy;<a href="hectlite.tk">hectlite</a></center>
-   
-</body>
-
-
+<body>
+	<center><p>copyright&copy;<a href="hectlite.tk">hectlite</a></center>
+<html>
