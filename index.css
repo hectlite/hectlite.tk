@@ -1,4 +1,12 @@
-
+@viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+@-ms-viewport{
+  zoom: 1.0;
+  width: extend-to-zoom;
+}
+}
 
    @keyframes change{
   		20%{background-image: url('https://wallpapercave.com/wp/wp2886902.jpg');
