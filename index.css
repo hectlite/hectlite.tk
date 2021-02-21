@@ -85,51 +85,27 @@ nav button a{
 
 }
 
-.search-box{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	background: orange;
-	height: 40px;
-	border-radius: 40px;
-	padding: 5px 100px;
 
+input[type=text] {
+  width: 430px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 90px;
+  font-size: 16px;
+  background-color: orange; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+border-bottom-left-radius: 100px;
 }
-	.search-box:hover > .search-txt{
-		width: 240px;
-		padding: 0 6px;
 
-	}
-	.search-box:hover > .search-btn{
-		background-color: white;
-
-	}
-
-	a .search-btn{
-		color: grey;
-		float: right;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		background: orange;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		transition: 0.4s;
-	}
-	
-	.search-txt{
-		border: none;
-		background: none;
-		outline: none;
-		float: left;
-		padding: 0;
-		color: white;
-		font-size: 25px;
-		transition: 0.5s;
-
-	}
+input[type=text]:focus {
+  width: 100%;
+}
 
  .slideshow-container {
   max-width: 1000px;
