@@ -49,8 +49,20 @@
 	<center><br><br><h1>HectNet SoftWares</h1></center>
 		<center>
 			<form>
-  <input type="text" name="search" placeholder="🤖Search..">
+  <input type="search" value="" id="search" onchange="openpage()" placeholder="🤖Search..">
+<script>
+   function openpage(){
+    var x = document.getElementById("search").value;
+   if(x === "hectlite"){
+    window.open(/index.html);
+}
 
+if(x === "blender"){
+    window.open(animating.html);
+}
+
+}
+<script>
 </form>
 				</a>
 	</center>
