@@ -1,6 +1,5 @@
 
 
-
    @keyframes change{
   		20%{background-image: url('https://wallpapercave.com/wp/wp2886902.jpg');
   			background-repeat: no-repeat;
@@ -84,7 +83,6 @@ nav button a{
   font-family: cursive;
 
 }
-
 
 input[type=text] {
   width: 430px;
@@ -183,7 +181,7 @@ input[type=text]:focus {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .5}
   to {opacity: 1}
 }
 
@@ -215,6 +213,7 @@ ul li a{
 h5{
 	color: magenta;
 }
-p{
-color: orange;	
+
+i{
+  color: white;
 }
