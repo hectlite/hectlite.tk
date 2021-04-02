@@ -11,7 +11,81 @@
    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
 
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+</style>
 </head>
 <body>
 &nbsp;	
@@ -74,12 +148,6 @@
     <img src="https://softwaredirectory.net/wp-content/uploads/2020/10/Dev-C-for-Mac-Free-Download.png" style="width:100%">
     <div class="text">HectNet SoftWares</div>
 
-    <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
-    <img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_720/https://ubuntu.com/wp-content/uploads/c9f4/visualstudio_code-card.png" style="width:100%">
-    <div class="text">HectNet SoftWares</div>
-
-
   </div><a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
@@ -89,7 +157,6 @@
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
-  <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
 <script>
@@ -108,29 +175,100 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 2 seconds
 }
 </script>
-
+<div class="content">
 <center><br><br><br><h3>popular softwares</h3></center>
+ <hr class="rounded">
 <div>
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjGE9RUlUCPixVCkq5vnWowL3x8ARoaOu10A&usqp=CAU">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROz3FRQXoNgXZ2nUPj9ujHs2C1y0in0dcyOA&usqp=CAU">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSurGUvOeK6_9QiYAWw1Oh9VRg2J83n4d2ZcA&usqp=CAU">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDh69rVU8wB1v1x-WemJG3vHaacDHAaZqkbQ&usqp=CAU">&nbsp;
-<center><h4>contact us</h4></center> <ul>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDh69rVU8wB1v1x-WemJG3vHaacDHAaZqkbQ&usqp=CAU">
+ <hr class="rounded">
+<div class="footer">
+  <div class="inner-footer">
+    <div class="footer-items">
+      <h1>HectLite Org</h1>
+      <p>
+       HectLite is an organisation intended & designed
+       for users to easily get softwares at a minimum
+       disturbance boredome majorly as follows
+       <br>
 
-		<center>	<li><a href="https://www.instagram.com/hectlite/"><i class="fab fa-instagram"></i></li></center>
-				<center><li><a href="https://web.facebook.com/hectlite.hecto.5"><i class="fab fa-facebook"></i></i></li></center>
-				<center>	<li><a href="https://www.youtube.com/channel/UCvv9NuJJXJtH0E4_uxIr9XQ"><i class="fab fa-youtube"></i></i></a></li></center><br>
+          &bullet;easy download<br>
+          &bullet;non-curbing user-friendliness 
+                   & interaction <br>
+          &bullet;one-time click download & many<br>
+          <img src="file:///C:/Users/25576/Documents/SharedScreenshot.jpg">
+                   
+      </p>
+      
+    </div>
+   
+  
+    <div class="footer-items">
+      <h3>quick links</h3>
+      <div class="border"></div>
+      <ul>
+        <a href="index.html"><li>home</li></a>
+        <a href=""><li>About us</li></a>
+        <a href=""><li>Services</li></a>
+        <button class="open-button" onclick="openForm()">request for softwares</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Chat</h1>
+
+    <label for="msg"><b>Message</b></label>
+    <textarea placeholder="softwares name" name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
 </div>
-</div>
-</body>
-</html>
-<center>
-<footer>
-	<div id="copy">
-		<p> Copyright &copy;  all-rights-reserved &reg;2021 hectlite org<br>
-			No part or material may be reproduced without prior permission from hectlite org <br>
-		</p>
-	</div>
-</footer>
-</center>
-<center> <p><i class="fa fa-spinner w3-spin" style="font-size:64px"></i></p><h5>thanks to use us ...</h5></center>
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+      </ul>
+  </div>
+ 
+    <div class="footer-items">
+      <h4>direct access</h4>
+      <div class="border"></div>
+      <ul>
+        <a href="animating.html"><li>animating</li></a>
+        <a href="programming.html"><li>programming</li></a>
+        <a href="office.html"><li>office</li></a>
+        <a href="editing.html"><li>editing</li></a>
+        <a href="system.html"><li>system</li></a>
+        <a href="networking.html"><li>networking</li></a>
+      </ul>
+  </div>
+
+  
+    <div class="footer-items">
+      <h4>contact us</h4>
+      <div class="border"></div>
+      <ul>
+        <li><i class="fas fa-map-marker-alt"></i>33100 ,Nyakato street,, MWANZA :TANZANIA </li>
+        <li><i class="fas fa-phone-volume"></i>+255622247653</li>
+        <li><i class="fas fa-envelope"></i>>hectlite@gmail.com</li>
+      </ul>
+      <div class="social-media">
+        <a href="https://web.facebook.com/hectlite.hecto.5"><i class="fab fa-facebook"></i></a>
+         <a href="https://www.instagram.com/hectlite/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UCvv9NuJJXJtH0E4_uxIr9XQ"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/hectlite-org-75688a207/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div class="footer-bottom">
+           Copyright &copy;  all-rights-reserved &reg;2021 hectlite org<br>
+      No part or material may be reproduced without prior permission from hectlite org
+        </div>
+  </div>
+  </div>
