@@ -278,7 +278,7 @@ li i {
 }
 .social-media{
   width: 100%;
-  color: green;
+  color: #fff;
   text-align: center;
 
 }
@@ -291,7 +291,7 @@ li i {
   width: 15px;
   margin: 20px 5px;
   padding: 10px;
-  color: green;
+  color: #fff;
   border-radius: 50%;
   border: 1px solid grey;
   transition: 0.3s;
